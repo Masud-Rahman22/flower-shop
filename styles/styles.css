@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Lato;
+}
+
+/* nav-bar styles here */
+.nav-bar {
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav img {
+    width: 120px;
+    height: 100px;
+    /* background-color: rgba(229, 84, 115, 0.10); */
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-listing {
+    list-style: none;
+}
+
+/* banner-section styles here */
+.banner-section {
+    display: flex;
+    gap: 50px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner-info{
+    padding-left: 140px;
+}
+.banner-section img {
+    width: 635px;
+    height: 700px;
+    padding-bottom: 0px;
+    margin-right: 50px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 32px;
+    margin-bottom: 0;
+    margin-right: 30px;
+}
+.btn{
+    padding: 20px 43px;
+    color: #FFF;
+font-size: 20px;
+background-color: pink;
+font-weight: 700;
+border-radius: 8px;
+background: #E55473;
+margin-top: 32px;
+}
