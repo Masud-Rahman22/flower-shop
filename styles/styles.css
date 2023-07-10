@@ -40,9 +40,11 @@ nav ul {
     height: 100vh;
     background: rgba(229, 84, 115, 0.10);
 }
-.banner-info{
+
+.banner-info {
     padding-left: 140px;
 }
+
 .banner-section img {
     width: 635px;
     height: 700px;
@@ -66,13 +68,79 @@ nav ul {
     margin-bottom: 0;
     margin-right: 30px;
 }
-.btn{
+
+.btn {
     padding: 20px 43px;
     color: #FFF;
-font-size: 20px;
-background-color: pink;
-font-weight: 700;
-border-radius: 8px;
-background: #E55473;
-margin-top: 32px;
+    font-size: 20px;
+    background-color: pink;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    margin-top: 32px;
+    border: 0;
+}
+
+/* feature-section styles here */
+.feature-section {
+    height: 100vh;
+}
+
+.feature-section h4 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 80px;
+}
+
+.feature-section p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.featured-flowers-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flower-img-1 img {
+    width: 200px;
+    height: 250px;
+    padding: 110px 75px 0px 75px;
+}
+
+.flower-img-2 img {
+    width: 200px;
+    height: 250px;
+    padding: 117px 47px 20px 47px;
+}
+
+.flower-img-3 img {
+    width: 200px;
+    height: 250px;
+    padding: 67px 75px 0 75px;
+}
+
+.flower-img-1 {
+    border: 1px solid white;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.flower-img-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    border: 1px solid white;
+}
+
+.flower-img-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    border: 1px solid white;
 }
