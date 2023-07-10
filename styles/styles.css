@@ -10,17 +10,7 @@ body {
 /* nav-bar styles here */
 .nav-bar {
     background-color: rgba(229, 84, 115, 0.10);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
-
-nav img {
-    width: 120px;
-    height: 100px;
-    /* background-color: rgba(229, 84, 115, 0.10); */
-}
-
 nav ul {
     display: flex;
     gap: 20px;
@@ -107,42 +97,44 @@ nav ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 30px;
 }
 
-.flower-img-1 img {
+.flower-photo {
+    height: auto;
     width: 200px;
-    height: 250px;
-    padding: 110px 75px 0px 75px;
+    object-fit: cover;
 }
 
-.flower-img-2 img {
-    width: 200px;
-    height: 250px;
-    padding: 117px 47px 20px 47px;
-}
-
-.flower-img-3 img {
-    width: 200px;
-    height: 250px;
-    padding: 67px 75px 0 75px;
-}
-
-.flower-img-1 {
+.flower-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid white;
     border-radius: 300px 300px 0px 0px;
+    height: 400px;
+    width: 300px;
+}
+
+.color3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.color2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.color1 {
     background: rgba(167, 33, 98, 0.15);
 }
 
-.flower-img-2 {
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
-    border: 1px solid white;
-}
-
-.flower-img-3 {
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
-    border: 1px solid white;
+.featured-flowers-img p {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
 
 /* hot-deal-section styles here */
@@ -189,7 +181,7 @@ nav ul {
 
 /* instagram-section styles here */
 .instagram-section {
-    height: 150vh;
+    height: 120vh;
 }
 
 .instagram-info h4 {
@@ -209,11 +201,55 @@ nav ul {
     margin-top: 24px;
     margin-bottom: 40px;
 }
-.instagram-section-photos{
+
+.instagram-section-photos {
     margin-left: 160px;
 }
-.instagram-section-photos img{
+
+.instagram-section-photos img {
     width: 280px;
     height: 300px;
     margin-right: 5px;
+}
+
+/* deals styles here */
+/* .deals-section{
+    height: 70vh;
+} */
+.deals-container {
+    background-image: url("../images/Rectangle\ 9.png");
+    /* background-position: center; */
+    width: 1340px;
+    height: 450px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+
+}
+
+.deals-description {
+    margin-top: 150px;
+}
+
+.deals-container h4 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deals-container p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.input-section {
+    margin-left: 287px;
+}
+
+.input-section input {
+    padding: 23px 513px 22px 22px;
+    margin-top: 145px;
 }
