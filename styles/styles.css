@@ -165,7 +165,6 @@ nav ul {
 
 .hot-deal-info p {
     color: rgba(39, 39, 39, 0.60);
-    /* text-align: center; */
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -178,6 +177,39 @@ nav ul {
 
 .hot-deal-img {
     margin-right: 60px;
+}
+
+/* best-selling section styles here */
+.best-selling-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    height: 70vh;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 100px;
+}
+.best-selling-description{
+    padding: 20px;
+}
+.best-selling-flower-images img {
+    width: 230px;
+    height: 250px;
+}
+
+.best-selling-section h3 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.best-selling-section p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
 }
 
 /* instagram-section styles here */
@@ -212,12 +244,6 @@ nav ul {
     height: 300px;
     margin-right: 5px;
 }
-
-/* best-selling section styles here */
-
-
-
-
 
 /* deals styles here */
 
@@ -286,7 +312,7 @@ nav ul {
     margin-top: 18px;
 }
 
-.copyright-section{
+.copyright-section {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
     font-size: 16px;
