@@ -3,10 +3,12 @@
     margin: 0;
     padding: 0;
 }
+
 /* common shared styles */
 body {
     font-family: Lato;
 }
+
 /* banner-section styles here */
 .banner-section {
     display: flex;
@@ -60,7 +62,7 @@ body {
 
 /* feature-section styles here */
 .feature-section {
-    height: 100vh;
+    height: 150vh;
 }
 
 .feature-section h4 {
@@ -124,6 +126,20 @@ body {
     text-decoration-line: underline;
 }
 
+.information-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(39, 39, 39, 0.05);
+    width: 87%;
+    margin: auto;
+    margin-top: 80px;
+}
+.information-description{
+    margin: 70px;
+    text-align: center;
+}
+
 /* hot-deal-section styles here */
 .hot-deal-section {
     height: 70vh;
@@ -175,9 +191,11 @@ body {
     background: rgba(229, 84, 115, 0.05);
     margin-top: 100px;
 }
-.best-selling-description{
+
+.best-selling-description {
     padding: 20px;
 }
+
 .best-selling-flower-images img {
     width: 230px;
     height: 250px;
@@ -190,7 +208,8 @@ body {
     font-weight: 800;
     margin-bottom: 20px;
 }
-.best-selling-section p{
+
+.best-selling-section p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
@@ -241,7 +260,8 @@ body {
     margin-top: 100px;
     margin-bottom: 80px;
 }
-.deals-title{
+
+.deals-title {
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -268,7 +288,8 @@ body {
     margin-top: 30px;
     border: 0;
 }
-.deals-btn{
+
+.deals-btn {
     margin-bottom: 10px;
 }
 
