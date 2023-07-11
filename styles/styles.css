@@ -1,26 +1,12 @@
+/* for whole body */
 * {
     margin: 0;
     padding: 0;
 }
-
+/* common shared styles */
 body {
     font-family: Lato;
 }
-
-/* nav-bar styles here */
-.nav-bar {
-    background-color: rgba(229, 84, 115, 0.10);
-}
-
-nav ul {
-    display: flex;
-    gap: 20px;
-}
-
-.nav-listing {
-    list-style: none;
-}
-
 /* banner-section styles here */
 .banner-section {
     display: flex;
@@ -214,7 +200,7 @@ nav ul {
 
 /* instagram-section styles here */
 .instagram-section {
-    height: 120vh;
+    height: 130vh;
 }
 
 .instagram-info h4 {
@@ -249,23 +235,18 @@ nav ul {
 
 .deals-container {
     background-image: url("../images/Rectangle\ 9.png");
-    /* background-position: center; */
-    width: 1340px;
-    height: 450px;
-    margin-left: 70px;
-    margin-bottom: 100px;
-
+    background-size: 100% 100%;
+    width: 78%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 80px;
 }
-
-.deals-description {
-    margin-top: 150px;
-}
-
-.deals-container h4 {
+.deals-title{
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+    margin-top: 50px;
 }
 
 .deals-container p {
@@ -277,12 +258,18 @@ nav ul {
 }
 
 .input-section {
-    margin-left: 287px;
+    width: 30%;
+    margin-right: auto;
+    margin-left: 230px;
 }
 
 .input-section input {
     padding: 23px 513px 22px 22px;
-    margin-top: 145px;
+    margin-top: 30px;
+    border: 0;
+}
+.deals-btn{
+    margin-bottom: 10px;
 }
 
 /* footer section styles here */
